@@ -43,6 +43,7 @@ export class WebsocketController extends SocketIOController {
 
 ```typescript
 // ...
+import { WebsocketController } from './app/services/websocket.service'
 
 import * as http from 'http';
 
